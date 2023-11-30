@@ -1,0 +1,10 @@
+baseURL = 'https://example.org/'
+languageCode = 'pt-br'
+title = 'Daniela hideout'
+theme = 'm10c'
+
+[params]
+    author = 'Daniela Silva'
+    description = 'Uma pessoa tentando descobrir o que diabos eu to fazendo aqui'
+    avatar = 'author-avatar.jpg'
+    favicon = 'favicon.ico'
