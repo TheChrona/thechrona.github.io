@@ -1,35 +1,59 @@
-header {
-    padding: 10px 0px 0px 0px;
-    text-align: center;
+@import url("reset.css");
+
+.header-container {
+    display: flex;
+    height: 70px;
 }
 
-body {
-    margin: 10px 20px 10px 20px;
+.logo-thing {
+    padding: 10px;
+    background-color: #5a5a5a;
+    color: #fff;
 }
 
-article h1, article h2 {
-    font-family: "Oswald", sans-serif;
+.emoji-user {
+    font-family: "Noto Color Emoji", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-article p, article h2, article a, article table {
-    font-family: "Roboto", sans-serif;
-    font-size: 12;
+.nav-links {
+    display: flex;
+    flex-grow: 1;
+    line-height: 50px;
+    background-color: #5a5a5a;
 }
 
-th,td {
-    padding: 5px;
+.nav-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
+.nav-links li {
+    float: left;
 }
 
-td {
-    text-align: center;
+.nav-links li a {
+    padding: 14px 16px;
+    color: white;
 }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+.nav-links li a.active {
+    background-color: #3786e1;
 }
 
+section article {
+    padding: 15px;
+}
+
+section article p, section article ul {
+    margin: 10px 0 10px 0;
+}
+
+section article ul li {
+    border-style: solid;
+    border-left-width: 5px;
+    border-left-color: #3786e1;
+    margin-bottom: 5px;
+}

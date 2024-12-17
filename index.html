@@ -10,135 +10,45 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Oswald:wght@200..700&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 
 <body>
-    <header>
-        <h1>
+    <header class="header-container">
+        <div class="logo-thing">
             <img src="images/under-construction.gif" width="30px" height="30px" />
-            This is my website, hi!
+                This is my website, hi!
             <img src="images/under-construction.gif" width="30px" height="30px" />
-        </h1>
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./pages/blog.html">Blog</a></li>
+                <li><a href="./pages/contact.html">Contact</a></li>
+                <li><a href="./pages/testing.html">Testing</a></li>
+            </ul>
+        </nav>
     </header>
 
     <section>
-        <nav>
+        <article>
+            <p>Olá! Meu nome é Daniela Silva, bem vinde ao meu website pessoal</p>
+            <p>Eu pretendo usar como um repositório de sei lá o que eu queira escrever. Como uso aqui pra aprender HTML e CSS, decidi separar a pagina de teste em <a href="./pages/testing.html">Testing</a>. Você pode acessar se quiser, provavelmente vai ter muito texto quebrado</p>
+            <p>Gosh, tenho tantas coisas que posso falar de mim! Como gosto de eficiência, segue uma lista não ordenada de características que acho interessante sobre minha pessoa: </p>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li>Eu sou programadora fullstack, mas prefiro backend. Trabalho com .NET e Angular (não pretendo utilizar as tecnologias nesse site)</li>
+                <li>Sou uma mulher trans! eeeeee bandeirinha <span class="emoji-user">🏳️‍⚧️</span></li>
+                <li>Eu gosto de escrever como um válvula de escape para minhas emoções</li>
+                <li>Eu amo videogames e falaria sobre isso por horas</li>
+                <li>Sei lá. Me canso fácil de projetos. Ok, chega de lista</li>
             </ul>
-        </nav>
-
-        <article>
-            <h2>This is an article - 05/12/2024 12:00:00</h2>
-            <p>Hi, this is an article example. I want to create a blog website, not just a place to vent my thoughts,
-                but also
-                document what i study, maybe create a short portfolio. Who knows? Anyway, i think i have enough
-                characters for
-                an example article. Thanks!</p>
-            <a href="#">You can access nothing by clicking here</a>
-            <br />
-        </article>
-        <article>
-            <h2> This is an article with personal medical information</h2>
-            <p>
-            <table>
-                <caption>Here's a table detailing my HRT dosage throughout my journey</caption>
-                <thead>
-                    <tr>
-                        <th>Date</th>
-                        <th>Cyproterone acetate</th>
-                        <th>Estrogen</th>
-                        <th>Cabergoline</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>12/05/2024</td>
-                        <td>50mg daily</td>
-                        <td>2mg daily</td>
-                        <td>-</td>
-                    </tr>
-                    <tr>
-                        <td>12/06/2024</td>
-                        <td>50mg daily</td>
-                        <td>3mg daily</td>
-                        <td>-</td>
-                    </tr>
-                    <tr>
-                        <td>13/08/2024</td>
-                        <td>25mg daily</td>
-                        <td>4mg daily</td>
-                        <td>-</td>
-                    </tr>
-                    <tr>
-                        <td>06/11/2024</td>
-                        <td>12.5mg daily</td>
-                        <td>6mg daily</td>
-                        <td>0.5mg every 2 weeks</td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>List of things that i want with HRT</p>
-            <ul>
-                <li>Boobs</li>
-                <li>Smoother skin</li>
-                <li>Nice hair</li>
-                <li>???</li>
-                <li>Profit</li>
-            </ul>
-            <p>Start me</p>
-            <code>
-            public void main () {
-                beTrans();
-                startGay();
-            }
-        </code>
-            </p>
-            <br />
-        </article>
-        <article>
-            <h2>This is another article - 05/12/2024 12:13:00</h2>
-            <img alt="A picture of Crona, a character from the anime Soul Eater" src="images/profile-picture.jpg"
-                width="120" height="150">
-            <p>This is a cool picture from a character i like made by <a
-                    href="https://www.pixiv.net/users/3235962">baechudosa</a></p>
-            <p>
-                Here are some cool text: <br>
-                <del>crossed out text</del> <br>
-                <mark>this is marked text</mark> <br>
-                <ins>this is inserted text</ins> <br>
-                <sub>this subscript text</sub> <br>
-                <sup>this is superscript text</sup>
-            </p>
-
-            <br />
-        </article>
-        <article>
-            <h2>This is an article with a video i like. It doesn't work, thanks Youtube - 05/12/2024 13:33:00</h2>
-            <iframe 
-            width="560" 
-            height="315" 
-            src="https://www.youtube.com/embed/mTdn-0_pIYg?si=xLomZoCUQzWJZ9dn&amp;controls=0" 
-            title="YouTube video player" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" 
-            allowfullscreen></iframe>
-            <br />
+            <p>Eu sou incrivelmente preguiçosa então don't hold your breath por alguma coisa interessante no site.</p>
+            <p>É isso! É... Sei lá, tenham um bom dia/tarde/noite, bebam água. Segue uma foto minha já que leu tudo</p>
+            <img src="./images/crazy-lady.jpg" width="300px" height="200px">
         </article>
     </section>
-
-    <footer>
-        <p style="text-align:center">This is a footer, very unserious! Copywrong 2024 &copy;</p>
-    </footer>
 
 </body>
 </html>
