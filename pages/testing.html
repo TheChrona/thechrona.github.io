@@ -3,23 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../flex-test.css">
     <title>Testing</title>
 </head>
 <body>
-    <header>
-        <h1>
+    <header class="header-container">
+        <div class="website-logo">
             <img src="../images/under-construction.gif" width="30px" height="30px" />
-            This is my website, hi!
+            <span class="website-title">This is my website, hi!</span>
             <img src="../images/under-construction.gif" width="30px" height="30px" />
-        </h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../pages/blog.html">Blog</a></li>
-                <li><a href="../pages/contact.html">Contact</a></li>
-                <li><a href="../pages/testing.html">Testing</a></li>
-            </ul>
-        </nav>
+        </div>
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/blog.html">Blog</a></li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                    <li><a href="../pages/testing.html">Testing</a></li>
+                </ul>
+            </nav>
+        </div>    
     </header>
 
     <section>
@@ -31,13 +35,11 @@
                 characters for
                 an example article. Thanks!</p>
             <a href="#">You can access nothing by clicking here</a>
-            <br />
         </article>
         <article>
             <h2> This is an article with personal medical information</h2>
             <p>
             <table>
-                <caption>Here's a table detailing my HRT dosage throughout my journey</caption>
                 <thead>
                     <tr>
                         <th></th>
@@ -79,7 +81,7 @@
                 </tbody>
             </table>
             <p>List of things that i want with HRT</p>
-            <ul>
+            <ul class="unordered-list">
                 <li>Boobs</li>
                 <li>Smoother skin</li>
                 <li>Nice hair</li>
@@ -94,7 +96,6 @@
             }
         </code>
             </p>
-            <br />
         </article>
         <article>
             <h2>This is another article - 05/12/2024 12:13:00</h2>
@@ -119,7 +120,6 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             referrerpolicy="strict-origin-when-cross-origin" 
             allowfullscreen></iframe>
-            <br />
         </article>
     </section>
 

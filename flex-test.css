@@ -1,0 +1,74 @@
+body {
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: gray;
+}
+
+.website-logo {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.website-title {
+    font-size: 26px;
+}
+
+.navigation {
+    padding: 10px;
+}
+
+.navigation nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 40%;
+}
+
+section {
+    padding: 10px;
+}
+
+article {
+    background-color: rgb(170, 170, 170);
+    border: 3px none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+h2 {
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+table, th, tr, td {
+    border: 1px solid;
+}
+
+table th {
+    font-weight: bold;
+    padding: 4px;
+}
+
+table tr td {
+    padding: 2px;
+}
+
+.unordered-list {
+    margin-bottom: 5px;
+    padding-right: 5px;
+    border-left: 2px solid rgb(112, 234, 255);
+}
