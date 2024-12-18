@@ -11,32 +11,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Oswald:wght@200..700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="../styles.css">
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
 </head>
 
 <body>
     <header class="header-container">
-        <div class="logo-thing">
+        <div class="website-logo">
             <img src="../images/under-construction.gif" width="30px" height="30px" />
-                This is my website, hi!
+            <span class="website-title">This is my website, hi!</span>
             <img src="../images/under-construction.gif" width="30px" height="30px" />
         </div>
-        <nav class="nav-links">
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../pages/blog.html">Blog</a></li>
-                <li><a href="../pages/contact.html">Contact</a></li>
-                <li><a href="../pages/testing.html">Testing</a></li>
-            </ul>
-        </nav>
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li><a class="navigation-button" href="../index.html">Home</a></li>
+                    <li><a class="navigation-button" href="blog.html">Blog</a></li>
+                    <li><a class="navigation-button" href="contact.html">Contact</a></li>
+                    <li><a class="navigation-button" href="testing.html">Testing</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section>
         <article>
             <p>Você pode entrar em contato comigo pelo: </p>
-            <p><a href="https://bsky.app/profile/thechrona.bsky.social">Bluesky</a></p>
-            <p>Discord: thechrona</p>
+            <ul>
+                <li>- <a href="https://bsky.app/profile/thechrona.bsky.social">Bluesky</a></li>
+                <li>- Discord: thechrona</li>
+            </ul>
+            
+            <p></p>
         </article>
     </section>
 

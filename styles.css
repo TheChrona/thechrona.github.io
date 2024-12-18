@@ -1,59 +1,127 @@
-@import url("reset.css");
-
-.header-container {
-    display: flex;
-    height: 70px;
+:root {
+    --primary-color: #D93B58;
+    --primary-color-shade: #F28D9F;
+    --secondary-color: #0568A6;
+    --secondary-color-shade: #0378A6;
+    --terciary-color: #D97762;
+    --text-color: #353131;
 }
 
-.logo-thing {
-    padding: 10px;
-    background-color: #5a5a5a;
-    color: #fff;
-}
-
-.emoji-user {
-    font-family: "Noto Color Emoji", sans-serif;
-    font-weight: 400;
+body {
+    padding: 2rem 2rem 2rem 2rem;
+    font-family: "Roboto", serif;
+    font-weight: 300;
     font-style: normal;
 }
 
-.nav-links {
+.header-container {
     display: flex;
-    flex-grow: 1;
-    line-height: 50px;
-    background-color: #5a5a5a;
-}
-
-.nav-links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.nav-links li {
-    float: left;
-}
-
-.nav-links li a {
-    padding: 14px 16px;
-    color: white;
-}
-
-.nav-links li a.active {
-    background-color: #3786e1;
-}
-
-section article {
+    justify-content: space-between;
     padding: 15px;
+    border: 2px none;
+    border-radius: 10px;
+    background-color: var(--primary-color)
 }
 
-section article p, section article ul {
-    margin: 10px 0 10px 0;
+section {
+    background-color: var(--secondary-color);
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px none;
+    border-radius: 10px;
 }
 
-section article ul li {
-    border-style: solid;
-    border-left-width: 5px;
-    border-left-color: #3786e1;
-    margin-bottom: 5px;
+article {
+    background-color: var(--terciary-color);
+    border: 2px none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+article * {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+article mark {
+    margin: 10px;
+    padding: 0px;
+}
+
+.website-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.website-title {
+    font-size: 26px;
+}
+
+.navigation {
+    width: 300px;
+    align-self: center;
+}
+
+.navigation nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation-button {
+    font-weight: 900;
+    text-decoration: none;
+    color: var(--text-color);
+    border: 1px none;
+    border-radius: 10px;
+    background-color: var(--primary-color-shade);
+    padding: 10px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+ul * {
+    padding: 0px;
+}
+
+table {
+    margin: 10px;
+}
+
+table, th, tr, td {
+    border: 1px solid black;
+}
+
+table th {
+    font-weight: bold;
+    padding: 4px;
+}
+
+table tr td {
+    padding: 2px;
+}
+
+.crossed-out {
+    text-decoration: line-through;
+}
+
+.marked {
+    background-color: yellow;
+}
+
+.underlined {
+    text-decoration-line: underline;
+}
+
+.emoji-user {
+    font-family: "Noto Color Emoji", serif;
+    font-weight: 400;
+    font-style: normal;
 }
