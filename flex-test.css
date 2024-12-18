@@ -1,16 +1,57 @@
+:root {
+    --primary-color: #D93B58;
+    --primary-color-shade: #F28D9F;
+    --secondary-color: #0568A6;
+    --secondary-color-shade: #0378A6;
+    --terciary-color: #D97762;
+    --text-color: #353131;
+}
+
 body {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 2rem 2rem 2rem 2rem;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
+    padding: 15px;
+    border: 2px none;
+    border-radius: 10px;
+    background-color: var(--primary-color)
+}
+
+section {
+    background-color: var(--secondary-color);
+    margin-top: 10px;
     padding: 10px;
-    background-color: gray;
+    border: 2px none;
+    border-radius: 10px;
+}
+
+article {
+    background-color: var(--terciary-color);
+    border: 2px none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+article * {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+article mark {
+    margin: 10px;
+    padding: 0px;
 }
 
 .website-logo {
-    padding-left: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,41 +62,41 @@ body {
 }
 
 .navigation {
-    padding: 10px;
+    width: 300px;
+    align-self: center;
 }
 
 .navigation nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 40%;
 }
 
-section {
+.navigation-button {
+    font-weight: 900;
+    text-decoration: none;
+    color: var(--text-color);
+    border: 1px none;
+    border-radius: 10px;
+    background-color: var(--primary-color-shade);
     padding: 10px;
 }
 
-article {
-    background-color: rgb(170, 170, 170);
-    border: 3px none;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
 h2 {
-    padding-bottom: 10px;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 800;
 }
 
-p {
-    font-size: 16px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+ul * {
+    padding: 0px;
+}
+
+table {
+    margin: 10px;
 }
 
 table, th, tr, td {
-    border: 1px solid;
+    border: 1px solid black;
 }
 
 table th {
@@ -67,8 +108,14 @@ table tr td {
     padding: 2px;
 }
 
-.unordered-list {
-    margin-bottom: 5px;
-    padding-right: 5px;
-    border-left: 2px solid rgb(112, 234, 255);
+.crossed-out {
+    text-decoration: line-through;
+}
+
+.marked {
+    background-color: yellow;
+}
+
+.underlined {
+    text-decoration-line: underline;
 }
