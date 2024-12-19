@@ -7,6 +7,25 @@
     --text-color: #353131;
 }
 
+@media screen and (max-width: 580px) {
+    .header-container {
+        flex-direction: column;
+        
+    }
+
+    .navigation {
+        width: 280px;
+        padding: 5% 0px 10% 0px;
+    }
+}
+
+@media (min-width: 600px) {
+    .navigation {
+        width: 300px;
+        padding-right: 14%;
+    }
+}
+
 body {
     padding: 2rem 2rem 2rem 2rem;
     font-family: "Roboto", serif;
@@ -16,7 +35,6 @@ body {
 
 .header-container {
     display: flex;
-    justify-content: space-between;
     padding: 15px;
     border: 2px none;
     border-radius: 10px;
@@ -62,7 +80,6 @@ article mark {
 }
 
 .navigation {
-    width: 300px;
     align-self: center;
 }
 
